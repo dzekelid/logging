@@ -32,7 +32,7 @@ apis:
   tags: Logging
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/logging/master/_listings/aws-internet-of-things/action-getloggingoptions-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/logging/master/_listings/aws-internet-of-things/action-setloggingoptions-get.md
 x-common:
 - type: x-blog
   url: https://aws.amazon.com/iot-platform/developer-resources/#Blog
