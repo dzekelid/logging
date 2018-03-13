@@ -30,7 +30,7 @@ apis:
   tags: Logging
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/logging/master/_listings/aws-redshift/action-describeloggingstatus-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/logging/master/_listings/aws-redshift/action-disablelogging-get.md
 x-common:
 - type: x-best-practices
   url: https://aws.amazon.com/redshift/developer-resources/#best-practices
