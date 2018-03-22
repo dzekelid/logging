@@ -31,7 +31,7 @@ apis:
   tags: Logging
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/logging/master/_listings/aws-cloudtrail/action-startlogging-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/logging/master/_listings/aws-cloudtrail/action-stoplogging-get.md
 x-common:
 - type: x-console
   url: https://console.aws.amazon.com/cloudtrail/home
