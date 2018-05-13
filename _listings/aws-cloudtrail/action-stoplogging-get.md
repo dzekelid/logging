@@ -1,8 +1,10 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS CloudTrail API
+  title: AWS CloudTrail API Stop Logging
   version: 1.0.0
+  description: Suspends the recording of AWS API calls and log file delivery for the
+    specified trail.
 schemes:
 - http
 produces:
