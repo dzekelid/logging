@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS CloudTrail API
+  title: AWS CloudTrail API Start Logging
   version: 1.0.0
+  description: Starts the recording of AWS API calls and log file delivery for a trail.
 schemes:
 - http
 produces:
