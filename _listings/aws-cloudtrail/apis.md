@@ -32,15 +32,16 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/logging/master/_listings/aws-cloudtrail/action-stoplogging-get.md
-- name: AWS CloudTrail API Start Logging
-  description: Starts the recording of AWS API calls and log file delivery for a trail.
+- name: AWS CloudTrail API Stop Logging
+  description: Suspends the recording of AWS API calls and log file delivery for the
+    specified trail.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSCloudTrail.png
   humanURL: https://aws.amazon.com/cloudtrail/
   baseURL: http:://{host}//
   tags: Logging
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/logging/master/_listings/aws-cloudtrail/action-startlogging-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/logging/master/_listings/aws-cloudtrail/action-stoplogging-get.md
 x-common:
 - type: x-console
   url: https://console.aws.amazon.com/cloudtrail/home
