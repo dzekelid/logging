@@ -1,8 +1,11 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Redshift API
+  title: Amazon Redshift API Describe Logging Status
   version: 1.0.0
+  description: |-
+    Describes whether information, such as queries and connection attempts, is being
+                logged for the specified Amazon Redshift cluster.
 schemes:
 - http
 produces:
