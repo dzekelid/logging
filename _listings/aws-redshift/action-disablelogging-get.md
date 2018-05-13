@@ -1,8 +1,11 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Redshift API
+  title: Amazon Redshift API Disable Logging
   version: 1.0.0
+  description: |-
+    Stops logging information, such as queries and connection attempts, for the
+                specified Amazon Redshift cluster.
 schemes:
 - http
 produces:
