@@ -31,17 +31,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/logging/master/_listings/aws-redshift/action-enablelogging-get.md
-- name: Amazon Redshift API Describe Logging Status
+- name: Amazon Redshift API Disable Logging
   description: |-
-    Describes whether information, such as queries and connection attempts, is being
-                logged for the specified Amazon Redshift cluster.
+    Stops logging information, such as queries and connection attempts, for the
+                specified Amazon Redshift cluster.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Database_AmazonRedshift.png
   humanURL: https://aws.amazon.com/redshift/
   baseURL: http:://{host}//
   tags: Logging
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/logging/master/_listings/aws-redshift/action-describeloggingstatus-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/logging/master/_listings/aws-redshift/action-disablelogging-get.md
 x-common:
 - type: x-best-practices
   url: https://aws.amazon.com/redshift/developer-resources/#best-practices
