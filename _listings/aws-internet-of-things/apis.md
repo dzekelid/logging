@@ -33,15 +33,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/logging/master/_listings/aws-internet-of-things/action-setloggingoptions-get.md
-- name: AWS Internet of Things API Get Logging Options
-  description: Gets the logging options.
+- name: AWS Internet of Things API Set Logging Options
+  description: Sets the logging options.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Internet-Of-Things_AWSIoT.png
   humanURL: https://aws.amazon.com/iot-platform/
   baseURL: http:://{host}//
   tags: Logging
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/logging/master/_listings/aws-internet-of-things/action-getloggingoptions-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/logging/master/_listings/aws-internet-of-things/action-setloggingoptions-get.md
 x-common:
 - type: x-blog
   url: https://aws.amazon.com/iot-platform/developer-resources/#Blog
